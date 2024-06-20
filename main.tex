@@ -1,0 +1,102 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[letterpaper, portrait, margin=.5in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\pagenumbering{gobble}
+\setlist[itemize]{nosep}
+\newcommand{\horizline}{
+	\vskip\medskipamount
+	\leaders\vrule width \textwidth\vskip0.4pt
+	\vskip\medskipamount
+	\nointerlineskip
+}
+\hypersetup{colorlinks=false, urlbordercolor=1 1 1}
+\begin{document}
+\begin{center}
+	\textbf{Rowan Hart} \\
+\end{center}
+\begin{flushleft}
+	(505)-321-2544 \hfill \href{https://github.com/novafacing}{https://github.com/novafacing} \\
+	rowanbhart@gmail.com \\
+	\vspace{.25cm}
+	\textbf{Education} \\
+	\horizline
+	\textbf{Purdue University, West Lafayette IN}  \\
+    Master of Science in Computer Science, GPA 3.66/4.0 \hfill \textbf{December 2022} \\
+	Bachelor of Science in Computer Science, GPA 3.55/4.0 \hfill \textbf{December 2020} \\
+	\vspace{.1cm}
+	\textbf{Technical Skills} \\
+	\horizline
+	\begin{itemize}
+        \item Programming Languages: Rust, Python, C/C++, Java, Typescript, Shell \\
+        \item Open Source Contributions: AFLplusplus/LibAFL, intel/tsffs, angr/angr, trailofbits/maat \\
+        \item Compilers: LLVM compiler for MiniC, LLVM instrumentation passes, Clang-Tidy Check development \\
+        \item Reverse Engineering: Reversing large systems and plugin development with Binary Ninja, Ghidra, and IDA Pro
+        \item Kernel Development: Linux Windows and XINU kernel \& kernel module development \\
+        \item DevOps: Linux, Windows, MacOS system administration, Docker, GitHub actions
+	\end{itemize}
+	\vspace{.25cm}
+	\textbf{Experience}
+	\horizline
+	\begin{itemize}
+        \item \textbf{Intel Corporation } \hfill \textbf{September 2022 - Present } \\
+            \begin{itemize}
+                \item Developed and open-sourced TSFFS, a fuzzer for the SIMICS full system simulator \\
+                \item Enabled fuzzing of Windows kernel drivers using Kernel Fuzzer for Xen \\
+                \item Participated in software and cryptography review of upcoming technologies \\
+                \item Collaborated with teams across business units to enable fuzzing firmware and drivers on all platforms \\
+            \end{itemize}
+        \item \textbf{Research Innovations Incorporated} \hfill \textbf{August 2020 - Auguest 2022} \\
+            \begin{itemize}
+                \item Vulnerability research of large software projects across server, embedded, and mobile environments using AFL++ and Jazzer alongside manual and symbolic techniques \\
+                \item Developed diverse Binary Ninja plugins to assist vulnerability research integrating symbolic execution with Z3 \\
+                \item Experimental applications of AI including transformers and reinforcement learning in vulnerability research \\
+                \item Developed automated tools leveraging angr to perform analysis of firmware \\
+            \end{itemize}
+        \item \textbf{Purdue University Undergraduate \& Graduate Research Assistant} \hfill \textbf{January 2020 - December 2022} \\
+            \begin{itemize}
+                \item Developed automated binary patching tools to improve coverage of closed-box binary fuzzing using angr \\
+                \item Developed automated exploit rehosting tools using the angr symbolic execution framework \\
+            \end{itemize}
+        \item \textbf{Purdue University Undergraduate \& Graduate Teaching Assistant} \hfill \textbf{August 2019 - May 2021} \\
+            \begin{itemize}
+                \item Wrote and maintained the standard linting tool for C programming courses \\
+                \item Taught and assisted students with C, systems programming, operating systems development, and gdb debugging \\
+                \item Developed project specifications and handouts, project and solution source code, and automated test cases \\
+            \end{itemize}
+    		\item \textbf{Northrop Grumman Xetron} \hfill \textbf{May 2018 - August 2020} \\
+    			\begin{itemize}
+                \item Reverse engineering of operating system internals and Windows applications, developed C/C++/Python projects \\
+                \item Developed an IDA Pro plugin for control flow analysis and path emulation for vulnerability research \\
+                \item Hosted a Capture The Flag competition, created infrastructure and reverse engineering challenges \\
+                \item Extended a binary comparison tool with additional functionality for metric acquisition in C++ and python \\
+    			\end{itemize}
+    		\item \textbf{Purdue University b01lers Capture The Flag Team - Vice President} \hfill \textbf{August 2017 - December 2021} \\
+    			\begin{itemize}
+                \item Coordinated, hosted, and developed challenges for multiple public CTF competitions with over 600 scoring teams \\
+                \item Coordinated and created training curriculum development and learning Capture the Flag events to further the skills of team members \\
+                \item Solved Challenges in reverse engineering, binary exploitation, programming, web exploitation, and cryptography
+    			\end{itemize}
+	\end{itemize}
+	\vspace{.25cm}
+	\textbf{Awards, Publications, \& Talks} \\
+	\horizline
+	\begin{itemize}
+        \item \textbf{Intel Security Leadership Award} for Fuzzing the Unfuzzable \hfill \textbf{June 2024} \\
+        \item \textbf{Intel Corporation Division Recognition Award} for Project Mercury \hfill \textbf{May 2024} \\
+        \item \textbf{BSides PDX (Talk)}: This Chip Does Not Exist: Pre-Silicon Fuzzing \hfill \textbf{October 2023} \\
+        \item \textbf{Intel Corporation Division Recognition Award} for Securing Intel Developer Cloud \hfill \textbf{September 2023} \\
+        \item \textbf{Intel Corporation Division Recognition Award} for CONFUSE: Shift-left fuzzing at Intel \hfill \textbf{June 2023} \\
+        \item \textbf{ACM SIGCSE Technical Symposium (Paper \& Talk)} \hfill \textbf{March 2023} \\
+            Eastwood-Tidy: C Linting For Automated Code Style Assessment in Programming Courses
+        \item \textbf{Masters Thesis (Paper)} \hfill \textbf{December 2022} \\
+            Fuzzing Deeper Logic With Impeding Function Transformation
+        \item \textbf{1st, 5th, 8th Place TAMUCTF} \hfill \textbf{March 2020, 2021, 2022} \\
+        \item \textbf{17th Place PlaidCTF} \hfill \textbf{March 2021} \\
+        \item \textbf{12th Place UCSB iCTF} \hfill \textbf{2020} \\
+        % \item \textbf{DefCamp CTF Finals Qualifier} \hfill \textbf{September 2017} \\
+	\end{itemize}
+\end{flushleft}
+\end{document}
