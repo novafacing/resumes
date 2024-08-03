@@ -1,1 +1,1 @@
-![resume](main.jpg)
+[Resume PDF](main.pdf)
